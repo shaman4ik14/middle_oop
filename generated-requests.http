@@ -1,0 +1,17 @@
+###
+GET http://localhost:8080/api/v1/company?company_link=.
+
+###
+POST http://localhost:8080/api/v1/company
+Content-Type: application/json
+
+{
+  "link": "epam.com",
+  "name": "EPAM",
+  "twitter": "https://twitter.com/EPAMSYSTEMS",
+  "facebook": "https://facebook.com/EPAM.Global",
+  "logo": "https://asset.brandfetch.io/idJKRtwCx8/idDT2PYr9d.png",
+  "icon": "https://asset.brandfetch.io/idJKRtwCx8/idq7flL_Zq.jpeg",
+  "number_employees": 54092,
+  "address": "Uhorska St, 14, Lviv, Lviv Oblast, Ukraine, 79034"
+}
